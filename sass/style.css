@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* line 1, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/* line 7, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+#app {
+  max-width: 400px;
+  height: 100vh;
+  background-color: #eceff0;
+  margin: 0 auto; }
+
+/* line 15, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+.button {
+  height: 3vh;
+  width: 100px;
+  background-color: #727e53;
+  border-radius: 5px; }
+
+/* line 22, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+.header {
+  height: 22vh;
+  background-color: #333333;
+  color: #515151;
+  padding: 5px; }
+  /* line 27, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .header h1 {
+    text-align: center;
+    color: green;
+    background-color: #333333;
+    margin: 0 auto;
+    padding-bottom: 5px; }
+  /* line 35, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .header .signInInputs {
+    float: left; }
+    /* line 38, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs p {
+      margin-top: 1vh;
+      color: #eceff0; }
+    /* line 42, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs .name {
+      float: left; }
+    /* line 45, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs .password {
+      float: right; }
+    /* line 48, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs .city {
+      float: left; }
+    /* line 51, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs .submit {
+      float: right;
+      width: 192px; }
+    /* line 55, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .header .signInInputs input {
+      width: 195px;
+      border-radius: 5px; }
+  /* line 60, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .header .signIn {
+    float: left; }
+  /* line 63, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .header .logIn {
+    float: right; }
+  /* line 66, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .header .button {
+    height: 3vh;
+    width: 100px;
+    background-color: #727e53; }
+
+/* line 73, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+.content {
+  height: 78vh;
+  text-align: center; }
+  /* line 76, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .content header {
+    color: green;
+    background-color: #515151;
+    height: 10vh; }
+    /* line 80, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .content header h2 {
+      margin-bottom: 1vh;
+      padding-top: 1vh; }
+    /* line 84, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .content header input {
+      width: 260px;
+      height: 3vh;
+      padding-left: 1vh;
+      padding-right: 1vh;
+      border-radius: 5px; }
+    /* line 91, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .content header input::placeholder {
+      text-align: center; }
+  /* line 95, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .content .vegetables {
+    height: 60vh; }
+    /* line 97, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .content .vegetables img {
+      height: 10vh; }
+  /* line 101, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .content footer {
+    color: green;
+    background-color: #515151;
+    height: 10vh; }
+    /* line 105, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+    .content footer h2 {
+      padding-top: 1vh; }
+
+/* line 113, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+.footer {
+  height: 10vh;
+  background-color: #333333;
+  color: #515151;
+  padding: 5px;
+  text-align: center; }
+  /* line 119, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .footer h1 {
+    text-align: center;
+    color: green;
+    background-color: #333333;
+    margin: 0 auto;
+    padding-bottom: 5px; }
+  /* line 127, /home/pawel/Pulpit/CodersLab/Moduł 06/back>to>eden/sass/style.scss */
+  .footer img {
+    height: 4vh;
+    margin-top: 1vh; }
+
+/*# sourceMappingURL=style.css.map */

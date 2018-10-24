@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+    max-width: 400px;
+    height: 100vh;
+    background-color: #eceff0;
+    margin: 0 auto;
+    
+    
+}
+.button {
+        height: 3vh;
+        width: 100px;
+        background-color: #727e53;
+        border-radius: 5px;
+        
+    }
+.header {
+    height: 22vh;
+    background-color: #333333;
+    color: #515151;
+    padding: 5px;
+    h1 {
+        text-align: center;
+        color: green;
+        background-color: #333333;
+        margin: 0 auto;        
+        padding-bottom: 5px;
+                
+    }
+    .signInInputs {
+        float: left;
+        //display: none;
+        p {
+            margin-top: 1vh;
+            color: #eceff0;
+        }
+        .name {
+            float: left;
+        }
+        .password {
+            float: right;
+        }
+        .city{
+            float: left;
+        }
+        .submit {
+            float: right;
+            width: 192px
+        }
+        input {
+            width: 195px;
+            border-radius: 5px;
+        }
+    }
+    .signIn {
+        float: left;
+    }
+    .logIn {
+        float: right;
+    }
+    .button {
+        height: 3vh;
+        width: 100px;
+        background-color: #727e53;
+        
+    }
+}
+.content {
+    height: 78vh;
+    text-align: center;
+    header {
+        color: green;
+        background-color: #515151;
+        height: 10vh;
+        h2 {
+            margin-bottom: 1vh;
+            padding-top: 1vh;
+        }
+        input {
+            width: 260px;
+            height: 3vh;
+            padding-left: 1vh;
+            padding-right: 1vh;
+            border-radius: 5px;
+        }
+        input::placeholder {
+            text-align: center;
+        }
+    }
+    .vegetables {
+        height: 60vh;
+        img {
+            height: 10vh;
+        }
+    }
+    footer {
+        color: green;
+        background-color: #515151;
+        height: 10vh;
+        h2 {
+            padding-top: 1vh;
+        }
+        h1 {
+            
+        }
+    }
+}
+.footer {
+    height: 10vh;
+    background-color: #333333;
+    color: #515151;
+    padding: 5px;
+    text-align: center;
+    h1 {
+        text-align: center;
+        color: green;
+        background-color: #333333;
+        margin: 0 auto;        
+        padding-bottom: 5px;
+                
+    }
+    img {
+        height: 4vh;
+        margin-top: 1vh;
+    }
+}

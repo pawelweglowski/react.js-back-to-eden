@@ -1,0 +1,105 @@
+{
+  "vegetables": [
+    {
+      "nazwa": "beens",
+      "id": 0,
+      "image": "./images/beens.jpeg",
+      "łacińska": "Phaseolus vulgaris",
+      "morfologia": {
+        "łodyga": "25-300cm",
+        "liście": "trójlistkowe",
+        "kwiaty": "motylkowe",
+        "owoc": "strąki",
+        "korzeń": "palowy"
+      },
+      "wymagania": "PH min 5,5",
+      "wysiew": {
+        "temp.": "15-18",
+        "termin": "maj i czerwiec",
+        "rzędy": "co 40-45cm",
+        "nasiona wysiew": "gniazdowo co 8-10cm"
+      },
+      "zbiór": "sierpień-wrzesień"
+    },
+    {
+      "nazwa": "onion",
+      "id": 0,
+      "image": "./images/onion.jpg",
+      "łacińska": "Allium cepa",
+      "morfologia": {
+        "łodyga": "10-30cm",
+        "liście": "obłe i dęte",
+        "kwiaty": "baldachowe",
+        "owoc": "torebki",
+        "korzeń": "system wiązkowy"
+      },
+      "wymagania": "PH 6,5-7",
+      "wysiew": {
+        "temp.": "15-20",
+        "termin": "maj",
+        "rzędy": "co 20-35cm",
+        "nasiona wysiew": "co 8-10cm"
+      },
+      "zbiór": "sierpień"
+    },
+    {
+      "nazwa": "carrot",
+      "id": 1,
+      "image": "./images/carrot.jpg",
+      "łacińska": "Daucus carota",
+      "morfologia": {
+        "łodyga": "15-40cm",
+        "liście": "dwu i trójlistkowe",
+        "kwiaty": "małe białe",
+        "owoc": "rozłupnia",
+        "korzeń": "spichrzowy"
+      },
+      "wymagania": "PH 6-6,5",
+      "wysiew": {
+        "temp.": "15-20",
+        "termin": "maj",
+        "rzędy": "co 30-45cm",
+        "nasiona wysiew": "co 8-10cm"
+      },
+      "zbiór": "sierpień-wrzesień"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "userName": "Ola",
+      "city": "Wrocław",
+      "password": "opiekun"
+    },
+    {
+      "id": 1,
+      "userName": "Beniamin",
+      "city": "Ostrów",
+      "password": "mentor"
+    },
+    {
+      "userName": "Paweł",
+      "password": "18asia05",
+      "city": "Wrocław",
+      "id": 3
+    },
+    {
+      "userName": "Jacek",
+      "password": "boss",
+      "city": "Wrocław",
+      "id": 4
+    },
+    {
+      "userName": "Dorota",
+      "password": "qwerty",
+      "city": "Ślęza",
+      "id": 5
+    },
+    {
+      "userName": "",
+      "password": "",
+      "city": "",
+      "id": 6
+    }
+  ]
+}
