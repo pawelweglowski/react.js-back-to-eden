@@ -78,6 +78,12 @@
       "password": "mentor"
     },
     {
+      "userName": "Dorota",
+      "password": "qwerty",
+      "city": "Ślęza",
+      "id": 2
+    },
+    {
       "userName": "Paweł",
       "password": "18asia05",
       "city": "Wrocław",
@@ -90,10 +96,10 @@
       "id": 4
     },
     {
-      "userName": "Dorota",
+      "userName": "Joanna",
       "password": "qwerty",
       "city": "Ślęza",
       "id": 5
-    },
+    }
   ]
 }
